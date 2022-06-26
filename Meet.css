@@ -1,0 +1,144 @@
+
+        *{
+            box-sizing: border-box;
+        }
+        .left{
+            float: left;
+        }
+        .navbar {
+            background-color: rgb(255, 255, 255);
+            border-radius: 30px;
+        }
+
+        .navbar ul {
+            overflow: auto;
+            padding-left: 0px;
+        }
+        .navbar li {
+            float: right;
+            list-style: none;
+            c
+        }
+        @media (max-width: 1000px){
+            .navbar li{
+                float: left;
+                margin-left: 13px;
+            }
+        }
+        .navbar li a {
+            padding: 3px 3px;
+            text-decoration: none;
+            color: rgb(219, 64, 64);
+        }
+
+        .navbar li a:hover {
+            text-decoration: underline;
+            background-color: rgb(219, 64, 64);
+            color: blanchedalmond;
+            border-radius: 10px;
+        }
+
+        .navbar li button {
+            margin-top: 2px;
+            border-color: rgb(255, 141, 33);
+            border-radius: 10px;
+            background-color: blanchedalmond;
+            padding: 9px;
+        }
+
+        .left img {
+            margin-left: 5px;
+            padding: 0px;
+            float: left;
+            width: 230px;
+            height: 50px;
+
+        }
+
+        #meetLink {
+            padding-left: 5px;
+            text-decoration: none;
+            margin-top: 20px;
+            float: left;
+            font-size: 20px;
+            font-family: 'Besley', serif;
+            color: grey;
+        }
+
+        #datetime{
+            font-family: 'Besley', serif;
+            font-size: 23px;
+        }
+        .about{
+            margin-left: 20px;
+        }
+        .about h1 {
+            padding-top: 110px;
+            margin-left: 75px;
+            font-size: 40px;
+            font-family: 'Besley', serif;
+            font-family: 'Noto Sans JP', sans-serif;
+        }
+        .about p{
+            margin-left: 75px;
+            margin-top: 10px;
+            font-family: 'Besley', serif;
+            font-family: 'Noto Sans JP', sans-serif;
+            color: grey;
+            font-size: 21px;
+        }
+        .about .startMeet{
+            margin-right: 900px;
+            margin-left: 20px;
+            border-bottom: 2px solid rgb(209, 197, 197);
+            
+        }
+        .startMeet li{
+            list-style: none;
+            margin-left: 16px;
+            margin-top: 20px;
+            /* padding-left: 38px; */
+            /* border-bottom: 3px;
+            border-color: grey; */
+        }
+        .startMeet a{
+            float: left;
+            padding: 13px;
+            background-color: rgb(96, 96, 199);
+            border-radius: 5px;
+            text-decoration: none;
+            color: whitesmoke;
+            font-size: 18px;
+            font-family: 'Besley', serif;
+            font-family: 'Noto Sans JP', sans-serif;
+        }
+        #search{
+            border-radius: 5px;
+            border-color: rgb(96, 96, 199);
+            margin-left: 20px;
+            padding: 16px;
+            width: 240px;
+        }
+        ::placeholder{
+            font-size: 18px;
+            font-family: 'Besley', serif;
+            font-family: 'Noto Sans JP', sans-serif;
+        }
+        #meetImage img{
+            margin-right: 110px;
+            margin-top: 110px;
+            float: right;
+            width: 450px;
+            height: 450px;
+        }
+        #learnMore{
+            margin-left: 95px;
+            font-size: 16px;
+            margin-top: 10px;
+            font-family: 'Besley', serif;
+            font-family: 'Noto Sans JP', sans-serif;
+            color: grey;
+        } 
+        #learnMore  a{
+            text-decoration: none;
+        }
